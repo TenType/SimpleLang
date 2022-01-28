@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "CommonJS",
+		"sourceMap": true,
+		"rootDir": "src",
+		"outDir": "dist",
+		"esModuleInterop": true,
+		"noEmitOnError": true,
+		"resolveJsonModule": true,
+		"removeComments": true,
+		"skipLibCheck": true,
+	},
+	"compileOnSave": true,
+	"include": ["src/**/*", "environment.d.ts"],
+	"exclude": ["node_modules"]
+}
